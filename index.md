@@ -3,6 +3,10 @@ layout: home
 title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
+Feedback control has been central to the advancement of several industries since the 1940’s, e.g., aeronautical and aerospace, chemecial, biology, among others. Standard techniques rely on the knowledge of a mathematical model to compute the control action, which limit – in principle – their use in applications for which a mathemtical model is not available, either due to the complexity of the model or to the impossibility of deriving one in the first place.
 
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
+My research combines techniques from formal verification, control theory, applied mathematics, and machine learning to enable the design of safer and more reliable feedback controllers. More especifically, I have particular interests in the following fields:
+
+- **Dynamic programming**
+- **Abstraction of stochastic systems**
+- **Stochastic Optimization**
