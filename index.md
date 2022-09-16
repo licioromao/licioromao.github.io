@@ -7,6 +7,7 @@ Feedback control has been central to the advancement of several industries since
 
 My research combines techniques from formal verification, control theory, applied mathematics, and machine learning to enable the design of safer and more reliable feedback controllers. More especifically, I have particular interests in the following fields:
 
-- **Dynamic programming**
+- **Dynamic programming and Reinforcement learning**
 - **Abstraction of stochastic systems**
 - **Stochastic Optimization**
+- **Feedback control systems**

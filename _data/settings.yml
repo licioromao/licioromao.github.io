@@ -1,6 +1,7 @@
 menu:
-- {name: 'Publications', url: '/Publications'}
 - {name: 'Biography', url: '/Biography'}
+- {name: 'Research Projects', url: '/ResearchSummary'}
+- {name: 'Publications', url: '/Publications'}
 - {name: 'Courses', url: '/courses'}
 - {name: 'CV', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
