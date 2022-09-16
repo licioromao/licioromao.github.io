@@ -1,6 +1,6 @@
 menu:
 - {name: 'Publications', url: '/Publications'}
-- {name: 'Teaching', url: '/Teaching'}
+- {name: 'Biography', url: '/Biography'}
 - {name: 'Courses', url: '/courses'}
 - {name: 'CV', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
@@ -16,10 +16,8 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/licioromao'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/licio-romao-58a9648b'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Dr. Licio Romao', title: 'Postdoctoral Researcher', phone: "01865 273838", department: 'Computer Science', institution: 'University of Oxford', institution_address: '7 Parks Rd, Oxford OX1 3QG', email: 'MyFirstName.MyLastName[at]cs.ox.ac.uk', office: '4th floor, room 420', image: 'assets/img/contact.jpg'}
