@@ -19,7 +19,7 @@ The main representative papers in this research direction are:
 3. T. Badings, L. Romao, A. Abate, D. Parker, H. Poonawala, M. Stoelinga, N. Jensen, "Robust Control for Dynamical Systems with Non-Gaussian Noise via Formal Abstractions". Submitted to Journal of Artificial Intelligence Research (JAIR).
 
 <p style="text-align:center;">
-   <img src="./assets/img/orbit.png" border="1" height="300" width="400">
+   <img src="../assets/img/orbit.png" border="1" height="300" width="400">
   <figcaption> Fig. A space rendezvous problem. The chaser spacecraft (white) must navigate to the target (green), while not colliding with the one in red. </figcaption> 
 </p>
 

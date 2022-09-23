@@ -1,8 +1,8 @@
 menu:
 - {name: 'Biography', url: '/Biography'}
-- {name: 'Research Projects', url: '/ResearchSummary'}
+- {name: 'Research', url: '/Research'}
 - {name: 'Publications', url: '/Publications'}
-- {name: 'Courses', url: '/courses'}
+- {name: 'Teaching', url: '/Teaching'}
 - {name: 'CV', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
 
@@ -15,6 +15,10 @@ courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 - {name: 'Stellar Structures', url: 'stellar-structures'}
+
+research:
+- {name: 'On going research projects', url: 'Ongoing'}
+- {name: 'Past and current students', url: 'students'}
 
 social:
 - {icon: 'github', link: 'https://github.com/licioromao'}

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    {% for research in site.data.settings.research %}
+      <p><a href="{{ site.github.url }}/Research/{{ research.url }}">{{ research.name }}</a></p>
+    {% endfor %}
+  </div>
+</div>
