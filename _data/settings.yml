@@ -17,7 +17,7 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 research:
-- {name: 'On going research projects', url: 'Ongoing'}
+- {name: 'Ongoing research projects', url: 'Ongoing'}
 - {name: 'Past and current students', url: 'students'}
 
 social:

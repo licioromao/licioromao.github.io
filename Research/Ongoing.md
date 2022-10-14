@@ -5,14 +5,14 @@ Title: "ResearchSummary"
 
 <link href="../assets/css/ResearchSummaryStyle.css" rel="stylesheet" type="text/css">
 
-Below you can find a list of non-exaustive projects that I am currently working on. Feel free to contact me if youwould like to build a collaboration in one of these topics and related areas.
+A non-exaustive list of projects that I have been recently involved is presented below. 
 
 ### Abstractions of discrete-time stochastic systems
 
-This is a joint work with [Prof. Nils Jensen](http://www.cs.ru.nl/personal/nilsjansen/) and [Thom Badings](https://thombadings.nl/) from the Radboud University, NL, as well as with [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). The main idea of the research project is to define abstractions of discrete-time stochastic systems without assuming knowledge of the noise distribution. We developed a non-trivial connection between scenario optimization and the abstraction generation process that is then leveraged to build an interval Markov Decision Process that represents a sound model for our orginal model. 
+This is a joint work with [Prof. Nils Jensen](http://www.cs.ru.nl/personal/nilsjansen/) and [Thom Badings](https://thombadings.nl/) from the Radboud University, NL, as well as with [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). This project involves the construction of abstractions for discrete-time stochastic systems using a non-trivial connection with the scenario approach theory. The generated abstraction consists of an interval Markov Decision process, which we leverage to design feedback control policies for reach-avoid specifications with formal guarantees.
 
 
-The main representative papers in this research direction are:
+The main representative papers are:
 
 1. T. Badings, A. Abate, N. Jensen, D. Parker, H. Poonawala, M. Stoelinga, "Sampling-based Robust Control of Autonomous Sysmtems with Non-Gaussian Noise", AAAI, 2022. **Award-winning paper** 
 2. T. Badings, L. Romao, A. Abate, N. Jensen, "Probabilities Are Not Enough: Formal Controller Synthesis for Stochastic Dynamical Models with Epistemic Uncertainty", Submitted to AAAI 2023.
@@ -26,13 +26,13 @@ The main representative papers in this research direction are:
 
 ### Scenario approach theory
 
-The scenario approach theory provides a mechanism to approximate the solution to chance-constraint optimization problem by means of available data. It produces guarantees on the probability of constraint violation for the optimization problem give by 
-\\[\begin{eqnarray}
-\mathrm{minimize} \quad  &c^\top x \nonumber \\
-\mathrm{subject~to} \quad  &g(x,\delta) \leq 0, \forall \delta \in S. 
-\end{eqnarray}\\]
+The scenario approach theory provides a beautiful mathematical property of the optimal solution of scenario programs (see optimisation problem below), which can be used to approximate the solution to chance-constraint optimization problems.
+\\[\begin{align}
+\mathrm{minimize} \quad  c^\top x \\
+\quad \mathrm{subject~to} \quad  g(x,\delta) \leq 0, \forall \delta \in S. 
+\end{align}\\]
 
-I have worked on the development of a new theoretical result on the guarantee of the probability of constraint violation of the above optimization problem when some of the constraints are discarded. My collaborators in this research direction include [Prof. Kostas Margellos](https://kostasmargellos.github.io/) and [Prof. Antonis Papachristodoulou](http://sysos.eng.ox.ac.uk/wiki/index.php/User:Antonishttp://sysos.eng.ox.ac.uk/wiki/index.php/User:Antonis). The relevant papers of this research direction are:
+I have contributed to the theoretical foundations of the scenario approach theory by showing a tighter bound on the probability of constraint violation when constraints are discarded. This is a joint work with [Prof. Kostas Margellos](https://kostasmargellos.github.io/) and [Prof. Antonis Papachristodoulou](http://sysos.eng.ox.ac.uk/wiki/index.php/User:Antonishttp://sysos.eng.ox.ac.uk/wiki/index.php/User:Antonis). Relevant papers are:
 
 1. L. Romao, A. Papachristodoulou, K. Margellos, "On the exact feasibility of convex scenario programs with discarded constraints", IEEE Transaction on Automatic Control, 2022. To appear.
 2. L. Romao, K. Margellos, A. Papachristodoulou, "Probabilistic feasibility guarantees for convex scenario programs with an arbitrary number of discarded constraints", Automatica, 2022. To appear.
@@ -41,19 +41,16 @@ I have worked on the development of a new theoretical result on the guarantee of
 
 ### Distributionally robust dynamic programming
 
-A common and powerful way to think about stochastic systems is through the lens of stochastic kernels, which are measurable maps from the state space (possibly also control space) to the space of probability measures over the state space. Given that we are able to approximate the underlying kernel using data, we are exploring how to develop control policies that are robust against kernel that belong to a class of ambiguity sets. My collaborators in this research direction are [Prof. Ashish Hota](http://www.facweb.iitkgp.ac.in/~ahota/index.html), IIT Kharagpur, and [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). 
+A common and powerful way to think about stochastic systems is through the lens of stochastic kernels, which are measurable maps from the state space (possibly also control space) to the space of probability measures over the state space. Motivated by the fact that we live in a data-rich world, we are exploring how to develop control policies that are robust against kernels that belong ambiguity sets constructed using the available data. My collaborators in this research direction are [Prof. Ashish Hota](http://www.facweb.iitkgp.ac.in/~ahota/index.html), IIT Kharagpur, and [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). 
 
-I will be happy to share a relevant paper in this direction once we finilise a draft of it. 
+This is an ongoing work and I hope to share results here soon.
 
-### Robustness of reinforcement learning
+### Robustness in reinforcement learning
 
-This is another exciting research direction that aims to characterize robustness of policies in reinforcement learning schemes. Indeed, RL algorithms are having tramenduous impact in several industries and also in academia, both due to its generality (being a model-free approach) and to the challenges in proving theoretical convergence to the optimal policy. In this research direction we are planning to characterize robustness notions of RL schemes and produce algorithms that converge to one of these robust policies. This work is under development in collaboration with [Prof. Manuel Mazo Jr](https://mmazojr.3me.tudelft.nl/) and Daniel Jarne, from TU Delft, NL, as well as with [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html).
+Robustness in RL is an important and exciting research topic. In this project we charcaterize a notion of robustness for RL policies and propose an algorithm that leverages lexicographic optimisation to obtain a policy that is robust according to our definition. This is a joint work with Daniel Jarne and [Prof. Manuel Mazo Jr](https://mmazojr.3me.tudelft.nl/) from TU Delft, NL, as well as with [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). Relevant papers are:
 
-I will be sharing a research draft on this topic as soon as possible.
+1. D. Jarne, L. Romao, L. Hammond, M. Mazo Jr, A. Abate, "Observational Robustness and Invariances in Reinforcement Learning via Lexicographic Objectives". Submitted to ICLR 2023.
 
 
-### Industrial project
-
-Safety-critical applications, in which the designed controller must be safe at all times, are the main source of motivation of my research, in addition of having a strong mathematical relevance. One area in which I am particular interest is space applications, thus I am also a member of the Oxford Space community (please check up [their website](https://www.space.ox.ac.uk/) for further details).
 
 

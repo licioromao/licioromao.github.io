@@ -18,7 +18,7 @@ title: "Past and Current students"
 ##### Student supervision
 
 ###### Completed
-- John Ryan. With [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). MSc thesis.
-- Thomas Koeck. With [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). MSc thesis.
-- Luke Rickard. With [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). PhD AIMS project. 
+- Luke Rickard. "Sample-based Control of Discrete-time Hybrid Systems with Non-Gaussian Noise". With [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). PhD AIMS project. 
+- John Ryan. "Reinforcement Learning for Space Operations". With [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). MSc thesis.
+- Thomas Koeck. "RL-based Attitude Control Problem". With [Prof. Alessandro Abate](https://www.cs.ox.ac.uk/people/alessandro.abate/home.html). MSc thesis.
 - Ming Ow. "Data-driven optimisation algorithms: trading feasibility with performance". With [Prof. Kostas Margellos](https://kostasmargellos.github.io/). MSc thesis.
