@@ -24,10 +24,10 @@ scholar:
   key: value
 
 
-url: "https://licioromao.github.io/licioromao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "./licioromao.github.io" # the subpath of your site, e.g. /blog
+url: https://licioromao.github.io/licioromao.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ./licioromao.github.io # the subpath of your site, e.g. /blog
 title: "Licio Romao" # the name of your site, e.g. ACME Corp.
-destination: "./docs"
+destination: ./docs
 description: <p>Postdoctoral Researcher at Oxcav<br>Computer Science Department. Oxford University</p>
 
 theme: academic-jekyll-theme
