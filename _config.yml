@@ -28,6 +28,6 @@ url: "" # https://licioromao.github.io/licioromao.github.io # the base hostname 
 baseurl: "" # _site/  # ./licioromao.gihub.io # the subpath of your site, e.g. /blog
 title: "Licio Romao" # the name of your site, e.g. ACME Corp.
 destination: ./docs
-description: <p>Postdoctoral Researcher at Oxcav<br>Computer Science Department. Oxford University</p>
+description: <p>Postdoctoral Researcher at Oxcav<br>Computer Science Department. University of Oxford</p>
 
 theme: academic-jekyll-theme
