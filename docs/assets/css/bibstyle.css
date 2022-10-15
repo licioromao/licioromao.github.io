@@ -1,0 +1,16 @@
+code { 
+    background: hsl(220, 80%, 90%); 
+}
+
+
+pre {
+  color: #000;
+  background: hsl(36,9%,95%);
+  margin: 1rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px dashed #444;
+  /*font-size: .8rem;*/
+  font-size: 11pt;
+  overflow-x: auto;
+}
+

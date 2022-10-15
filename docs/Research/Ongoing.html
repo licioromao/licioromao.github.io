@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title> | Licio Romao</title>
+  <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+  <script defer src="/assets/libs/fontawesome/all.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">Licio Romao</span>
+    </a>
+    <a href="/" class="d-flex align-items-center text-decoration-none">
+      <span><p>Postdoctoral Researcher at Oxcav<br>Computer Science Department. Oxford University</p></span>
+    </a>
+  </div>
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    
+      <a class="me-3 py-2 text-decoration-none" href="/Biography">Biography</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/Research">Research</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/Publications">Publications</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/Teaching">Teaching</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/cv">CV</a>
+    
+      <a class="me-3 py-2 text-decoration-none" href="/contact">Contact</a>
+    
+  </nav>
+</header>
+
+      <link href="../assets/css/ResearchSummaryStyle.css" rel="stylesheet" type="text/css" />
+
+<p>A non-exaustive list of projects that I have been recently involved is presented below.</p>
+
+<h3 id="abstractions-of-discrete-time-stochastic-systems">Abstractions of discrete-time stochastic systems</h3>
+
+<p>This is a joint work with <a href="http://www.cs.ru.nl/personal/nilsjansen/">Prof. Nils Jensen</a> and <a href="https://thombadings.nl/">Thom Badings</a> from the Radboud University, NL, as well as with <a href="https://www.cs.ox.ac.uk/people/alessandro.abate/home.html">Prof. Alessandro Abate</a>. This project involves the construction of abstractions for discrete-time stochastic systems using a non-trivial connection with the scenario approach theory. The generated abstraction consists of an interval Markov Decision process, which we leverage to design feedback control policies for reach-avoid specifications with formal guarantees.</p>
+
+<p>The main representative papers are:</p>
+
+<ol>
+  <li>T. Badings, A. Abate, N. Jensen, D. Parker, H. Poonawala, M. Stoelinga, “Sampling-based Robust Control of Autonomous Sysmtems with Non-Gaussian Noise”, AAAI, 2022. <strong>Award-winning paper</strong></li>
+  <li>T. Badings, L. Romao, A. Abate, N. Jensen, “Probabilities Are Not Enough: Formal Controller Synthesis for Stochastic Dynamical Models with Epistemic Uncertainty”, Submitted to AAAI 2023.</li>
+  <li>T. Badings, L. Romao, A. Abate, D. Parker, H. Poonawala, M. Stoelinga, N. Jensen, “Robust Control for Dynamical Systems with Non-Gaussian Noise via Formal Abstractions”. Submitted to Journal of Artificial Intelligence Research (JAIR).</li>
+</ol>
+
+<p style="text-align:center;">
+   <img src="../assets/img/orbit.png" border="1" height="300" width="400" />
+  <figcaption> Fig. A space rendezvous problem. The chaser spacecraft (white) must navigate to the target (green), while not colliding with the one in red. </figcaption> 
+</p>
+
+<h3 id="scenario-approach-theory">Scenario approach theory</h3>
+
+<p>The scenario approach theory provides a beautiful mathematical property of the optimal solution of scenario programs (see optimisation problem below), which can be used to approximate the solution to chance-constraint optimization problems.
+\[\begin{align}
+\mathrm{minimize} \quad  c^\top x <br />
+\quad \mathrm{subject~to} \quad  g(x,\delta) \leq 0, \forall \delta \in S. 
+\end{align}\]</p>
+
+<p>I have contributed to the theoretical foundations of the scenario approach theory by showing a tighter bound on the probability of constraint violation when constraints are discarded. This is a joint work with <a href="https://kostasmargellos.github.io/">Prof. Kostas Margellos</a> and <a href="http://sysos.eng.ox.ac.uk/wiki/index.php/User:Antonishttp://sysos.eng.ox.ac.uk/wiki/index.php/User:Antonis">Prof. Antonis Papachristodoulou</a>. Relevant papers are:</p>
+
+<ol>
+  <li>L. Romao, A. Papachristodoulou, K. Margellos, “On the exact feasibility of convex scenario programs with discarded constraints”, IEEE Transaction on Automatic Control, 2022. To appear.</li>
+  <li>L. Romao, K. Margellos, A. Papachristodoulou, “Probabilistic feasibility guarantees for convex scenario programs with an arbitrary number of discarded constraints”, Automatica, 2022. To appear.</li>
+  <li>L. Romao, K. Margellos, A. Papachristodoulou, “Tight generalization guarantees for the sampling and discarding approach to scenario optimization”, 59th Conference on Decision and Control (CDC), 2020.</li>
+  <li>L. Romao, K. Margellos, A. Papachristodoulou, “Tight sampling and discardind bounds for scenario programs with an arbitrary number of removed samples”, L4DC, 2021.</li>
+</ol>
+
+<h3 id="distributionally-robust-dynamic-programming">Distributionally robust dynamic programming</h3>
+
+<p>A common and powerful way to think about stochastic systems is through the lens of stochastic kernels, which are measurable maps from the state space (possibly also control space) to the space of probability measures over the state space. Motivated by the fact that we live in a data-rich world, we are exploring how to develop control policies that are robust against kernels that belong ambiguity sets constructed using the available data. My collaborators in this research direction are <a href="http://www.facweb.iitkgp.ac.in/~ahota/index.html">Prof. Ashish Hota</a>, IIT Kharagpur, and <a href="https://www.cs.ox.ac.uk/people/alessandro.abate/home.html">Prof. Alessandro Abate</a>.</p>
+
+<p>This is an ongoing work and I hope to share results here soon.</p>
+
+<h3 id="robustness-in-reinforcement-learning">Robustness in reinforcement learning</h3>
+
+<p>Robustness in RL is an important and exciting research topic. In this project we charcaterize a notion of robustness for RL policies and propose an algorithm that leverages lexicographic optimisation to obtain a policy that is robust according to our definition. This is a joint work with Daniel Jarne and <a href="https://mmazojr.3me.tudelft.nl/">Prof. Manuel Mazo Jr</a> from TU Delft, NL, as well as with <a href="https://www.cs.ox.ac.uk/people/alessandro.abate/home.html">Prof. Alessandro Abate</a>. Relevant papers are:</p>
+
+<ol>
+  <li>D. Jarne, L. Romao, L. Hammond, M. Mazo Jr, A. Abate, “Observational Robustness and Invariances in Reinforcement Learning via Lexicographic Objectives”. Submitted to ICLR 2023.</li>
+</ol>
+
+
+      <footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6 text-end social-media-icons">
+      
+        <a href="https://github.com/licioromao" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
+      
+        <a href="https://www.linkedin.com/in/licio-romao-58a9648b" class="ms-3 fs-5"><i class="fab fa-linkedin"></i></a>
+      
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>
+<!--The code below activates latex equation in the markdown files -->
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
