@@ -25,6 +25,8 @@ social:
 - {academia: 'no', icon: 'linkedin', link: 'https://www.linkedin.com/in/licio-romao-58a9648b'}
 - {academia: 'yes', icon: 'orcid', link: 'https://orcid.org/my-orcid?orcid=0000-0002-5716-6162'}
 - {academia: 'yes', icon: 'dblp', link: 'https://dblp.org/pid/223/2586.html'}
+- {academia: 'yes', icon: 'semantic-scholar', link: 'https://www.semanticscholar.org/author/Licio-Romao/51054065?sort=influence'}
+- {academia: 'yes', icon: 'arxiv', link: 'https://arxiv.org/a/romao_l_1.html'}
 - {academia: 'no', icon: 'github', link: 'https://github.com/licioromao'}
 
 contacts:
