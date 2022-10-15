@@ -1,8 +1,15 @@
+<link rel="stylesheet" href="/assets/css/academicons.min.css"/>
+
+
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
     <div class="col-md-6 text-end social-media-icons">
       {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
+      	{% if item.academia == "yes" %}
+		<a href="{{ item.link }}" class="ms-3 fs-5"><i class="ai ai-{{ item.icon }}-square ai-1x"></i></a>
+	{% else %}
+      	        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }} fa-1x"></i></a>
+	{% endif %}
       {% endfor %}
     </div>
   </div>

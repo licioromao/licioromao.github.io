@@ -21,8 +21,11 @@ research:
 - {name: 'Past and current students', url: 'students'}
 
 social:
-- {icon: 'github', link: 'https://github.com/licioromao'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/licio-romao-58a9648b'}
+- {academia: 'yes', icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=AWJbL5kAAAAJ&hl=en'}
+- {academia: 'no', icon: 'linkedin', link: 'https://www.linkedin.com/in/licio-romao-58a9648b'}
+- {academia: 'yes', icon: 'orcid', link: 'https://orcid.org/my-orcid?orcid=0000-0002-5716-6162'}
+- {academia: 'yes', icon: 'dblp', link: 'https://dblp.org/pid/223/2586.html'}
+- {academia: 'no', icon: 'github', link: 'https://github.com/licioromao'}
 
 contacts:
 - {name: 'Dr. Licio Romao', title: 'Postdoctoral Researcher', phone: "01865 273838", department: 'Computer Science', institution: 'University of Oxford', institution_address: '7 Parks Rd, Oxford OX1 3QG', email: 'MyFirstName.MyLastName[at]cs.ox.ac.uk', office: '4th floor, room 420', image: 'assets/img/contact.jpg'}

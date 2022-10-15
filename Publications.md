@@ -3,12 +3,12 @@ title: Publications
 layout: default
 ---
 
-## Pre-prints
+## Under review
 
 {% bibliography --query @*[year=2023] %}
 
 
-## Journal Articles
+## Journals 
 
 {% bibliography -q @article %}
 
@@ -16,7 +16,7 @@ layout: default
 
 {% bibliography -q @inproceedings %}
 
-## Thesis
+## Theses
 
 ### PhD Thesis
 
