@@ -3,7 +3,7 @@ title: Publications
 layout: default
 ---
 
-Please find below a list of my publications. Links to my academic and professional profiles can be found in the bottom of this page.
+Please find below a list of my publications. Links to my academic and professional profiles can be found at the bottom of this page.
 
 ## Under review
 
