@@ -10,5 +10,6 @@ My research combines techniques from formal verification, control theory, applie
 - **Dynamic programming and Reinforcement learning**
 - **Abstraction of dynamical systems**
 - **Formal verification**
+- **Stochastic systems**
 - **Stochastic Optimization**
 - **Feedback control systems**
