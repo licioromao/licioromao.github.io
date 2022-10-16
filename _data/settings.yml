@@ -18,7 +18,7 @@ courses:
 
 research:
 - {name: 'Ongoing research projects', url: 'Ongoing'}
-- {name: 'Past and current students', url: 'students'}
+- {name: 'Collaborators and student supervision', url: 'students'}
 
 social:
 - {academia: 'yes', icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=AWJbL5kAAAAJ&hl=en'}
