@@ -11,7 +11,7 @@ title: "Teaching"
 #### Engineering Science Department, University of Oxford
 
 ##### Graduate courses
-- Modern Control Theory. Substitute Lecturer, 2021.
+- AIMS Modern Control Theory. Lecturer, 2021.
 
 ##### Undergradute courses
 - B15: Control Systems. 2019,2020,2021. 
