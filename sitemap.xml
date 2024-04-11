@@ -1,84 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
 <url>
-<loc>https://licioromao.github.io/2022/04/23/displaying-external-posts-on-your-al-folio-blog.html</loc>
-<lastmod>2022-04-23T20:20:09-03:00</lastmod>
+    <loc>https://licioromao.github.io/index.html</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
 </url>
 <url>
-<loc>https://licioromao.github.io/projects/DRDP/</loc>
-<lastmod>2023-08-03T15:35:12-03:00</lastmod>
+    <loc>https://licioromao.github.io/pages/publications/index.html</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
 </url>
 <url>
-<loc>https://licioromao.github.io/projects/RL/</loc>
-<lastmod>2023-08-03T15:35:12-03:00</lastmod>
+    <loc>https://licioromao.github.io/pages/contact/index.html</loc>
+    <lastmod>2024-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
 </url>
 <url>
-<loc>https://licioromao.github.io/projects/a-project-that-redirects/</loc>
-<lastmod>2023-08-03T15:35:12-03:00</lastmod>
-</url>
-<url>
-<loc>https://licioromao.github.io/projects/abstractions/</loc>
-<lastmod>2023-08-03T15:35:12-03:00</lastmod>
-</url>
-<url>
-<loc>https://licioromao.github.io/projects/chance-constrained/</loc>
-<lastmod>2023-08-03T15:35:12-03:00</lastmod>
-</url>
-<url>
-<loc>https://licioromao.github.io/</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/master-fapesp.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/Research/</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/publications/</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/start-phd-oxford.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/teaching/</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test-1.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test-2.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test-3.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test-4.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test-5.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test-6.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test-7.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test-8.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/test.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/visit-mauricio-ucsd.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/news/visit-stanford.html</loc>
-</url>
-<url>
-<loc>https://licioromao.github.io/blog/2022/</loc>
+    <loc>https://licioromao.github.io/pages/teaching/index.html</loc>
+    <lastmod>2024-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
 </url>
 </urlset>
