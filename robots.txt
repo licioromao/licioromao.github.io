@@ -1,4 +1,0 @@
-Sitemap: https://licioromao.github.io/sitemap.xml
-
-User-agent: *
-Disallow:
