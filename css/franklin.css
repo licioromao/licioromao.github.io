@@ -336,26 +336,35 @@ nav.dark-mode {
 .franklin-content {
   text-align: justify;
   position: relative;
-  box-sizing: content-box; 
-  padding-left: 30%;
-  padding-right: 30%;
-  /* line-height: 1.35em; */
+  width: 90%;
+  /* box-sizing: content-box;  */
+  padding-left: 5%;
+  padding-right: 20%;
+  line-height: 1.35em;
+}
+
+@media (min-width: 800px) {
+  .franklin-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* On wide screens, fix content width to a max value. */
-@media (min-width: 940px) {
+@media (max-width: 800px) {
   .franklin-content {
-    width: 950px;
-    margin-left: 0cm;
-    /* margin-right: 0cm; */
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
 /* On narrow device, reduce margins. */
-@media (max-width: 3000px) {
+@media (max-width: 480px) {
   .franklin-content {
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
