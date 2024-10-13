@@ -101,8 +101,7 @@ nav a:hover, a:active {
 }
 
 /* Style for announcements: prospective students */
-
-.prospective-students {
+body.light-mode .prospective-students {
   border: 1px dashed rgba(47,62,234,0.85);
   background-color: rgba(179, 179, 54, 0.2);
   margin-bottom: 10px;
@@ -111,11 +110,29 @@ nav a:hover, a:active {
   border-radius: 10px;
 }
 
+body.dark-mode .prospective-students {
+  border: 1px dashed rgba(47, 72, 234, 0.85);
+  background-color: rgba(3, 43, 244, 0.585);
+  margin-bottom: 10px;
+  margin-block-end: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
 /* The styles below are used for the publications */
 
-.paper {
-  border: 1px dashed #8c1515;
+body.light-mode .paper {
+  border: 1px dashed #000000;
   background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  margin-block-end: 10px;
+  padding: 10px;
+}
+
+body.dark-mode .paper {
+  border: 1px dashed rgba(47, 72, 234, 0.85);
+  background-color: rgba(3, 43, 244, 0.342);
   margin-bottom: 10px;
   margin-block-end: 10px;
   padding: 10px;
@@ -134,7 +151,7 @@ nav a:hover, a:active {
   margin: 0;
 }
 
-.paper-code {
+body.light-mode .paper-code {
   white-space: pre-wrap;
   background-color: #f0f0f0;
   border: 1px solid #8c1515;
@@ -145,6 +162,19 @@ nav a:hover, a:active {
   overflow-x: auto;
   line-height: 1;
 }
+
+body.dark-mode .paper-code {
+  white-space: pre-wrap;
+  border: 1px dashed rgba(47, 72, 234, 0.85);
+  background-color: rgba(3, 43, 244, 0.342);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 9pt;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  line-height: 1;
+}
+
 .paper-pdf-button {
   margin-top: 10px;
 }
@@ -160,7 +190,7 @@ nav a:hover, a:active {
 
 /* Student feedback */
 
-.student-feedback {
+body.light-mode .student-feedback {
   border: 1px dashed #8c1515;
   background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
@@ -168,7 +198,32 @@ nav a:hover, a:active {
   padding: 10px;
 }
 
-.course-title {
+body.dark-mode .student-feedback {
+  border: 1px dashed rgba(47, 72, 234, 0.85);
+  background-color: rgba(3, 43, 244, 0.342);
+  margin-bottom: 10px;
+  margin-block-end: 10px;
+  padding: 10px;
+}
+
+body.light-mode .theme-button {
+  background-image: url('/assets/light-theme.png');
+  background-size: cover;
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+body.dark-mode .theme-button {
+  background-image: url('/assets/dark-theme.png');
+  background-size: cover;
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+
+body.light-mode .course-title {
   font-size: 14pt;
   color: #8c1515;
   font-weight: bold;
@@ -176,6 +231,49 @@ nav a:hover, a:active {
   border-bottom: 2px solid #8c1515;
   padding-bottom: 0.5em;
 }
+
+body.dark-mode .course-title {
+  font-size: 14pt;
+  color: rgba(47, 72, 234, 0.85);
+  font-weight: bold;
+  margin-bottom: 1em;
+  border-bottom: 1px dashed rgba(47, 72, 234, 0.85);
+  /* border-bottom: 2px solid #8c1515; */
+  padding-bottom: 0.5em;
+}
+
+
+/* Styles for the light and dark mode */
+
+body.light-mode {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+nav.light-mode {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #000000;
+  color: #f0f0f0;
+}
+
+nav.dark-mode {
+  background-color: #000000;
+  color: #f0f0f0;
+}
+
+.nav-links img {
+  width: auto;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* button#theme-toggle:hover {
+  background-color: #ccc;
+} */
 
 /* ==================================================================
     BASIC GRID FOR PROFILE PIC
