@@ -3,7 +3,7 @@
     <p class="paper-title">Scalable and data-driven approaches to convex programming</p>
     <p class="paper-authors">Licio Romao</p>
     <p class="paper-venue"> <span class="paper-venue-name">University of Oxford</span> 2021. <span class="paper-award">IET Control and Automation dissertation prize.</span></p>
-    <button class="paper-details-button" onclick="toggleCode('paper-code15')">Bib entry</button><a href=/assets/bibfiles/individual-pdf/Romao21.pdf>
+    <button class="paper-details-button" onclick="toggleCode('paper-code15')">Bib</button><a href=/assets/bibfiles/individual-pdf/Romao21.pdf>
     <button class="paper-pdf-button">PDF</button>
 </a>        <div id="paper-code15" class="paper-code" data-file=/assets/bibfiles/individual-bib/Romao21.bib style="display: none;">
             <button class="copy-btn">Copy</button> 

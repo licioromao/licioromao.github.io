@@ -1,5 +1,22 @@
 ~~~
 <div class="paper">
+    <p class="paper-title">Enhancing Data-Driven Stochastic Control via Bundled Interval MDP</p>
+    <p class="paper-authors">Rudi Coppola, Andrea Peruffo, Licio Romao, Alessandro Abate, Manuel Mazo</p>
+    <p class="paper-venue"><span class="paper-venue-name">IEEE Control Systems Letters</span>, 2024.</p>
+    <button class="paper-details-button" onclick="toggleCode('paper-code26')">Bib</button><a href=/assets/bibfiles/individual-pdf/CPRAM24.pdf>
+    <button class="paper-pdf-button">PDF</button>
+</a>        <div id="paper-code26" class="paper-code" data-file=/assets/bibfiles/individual-bib/CPRAM24.bib style="display: none;">
+            <button class="copy-btn">Copy</button> 
+        </div>
+    </div>
+
+    <script src="/assets/js/fetch_paper_code.js"></script>
+    <script src="/assets/js/listen_to_copy.js"></script>
+    <script src="/assets/js/buttom_func.js"></script>
+    <script src="/assets/js/print_bib.js"></script>
+~~~
+~~~
+<div class="paper">
     <p class="paper-title">On the exact feasibility of convex programs with discarded constraints</p>
     <p class="paper-authors">Licio Romao, Antonis Papachristodoulou, Kostas Margellos</p>
     <p class="paper-venue"><span class="paper-venue-name">IEEE Transactions on Automatic Control</span>, 2023.</p>
@@ -37,7 +54,7 @@
     <p class="paper-title">Robust Control for Dynamical Systems with Non-Gaussian Noise via Formal Abstractions</p>
     <p class="paper-authors">Thom Badings, Licio Romao, Alessandro Abate, David Parker, Hasan Poonawala, Marielle Stoelinga, Nils Jansen</p>
     <p class="paper-venue"> <span class="paper-venue-name">Journal of Artificial Intelligence Research</span> 2023. <span class="paper-award">Distinguished Paper Award. AAAI 2022.</span></p>
-    <button class="paper-details-button" onclick="toggleCode('paper-code24')">Bib entry</button><a href=/assets/bibfiles/individual-pdf/BRAPPSJ23.pdf>
+    <button class="paper-details-button" onclick="toggleCode('paper-code24')">Bib</button><a href=/assets/bibfiles/individual-pdf/BRAPPSJ23.pdf>
     <button class="paper-pdf-button">PDF</button>
 </a>        <div id="paper-code24" class="paper-code" data-file=/assets/bibfiles/individual-bib/BRAPPSJ23.bib style="display: none;">
             <button class="copy-btn">Copy</button> 

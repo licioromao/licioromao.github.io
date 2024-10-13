@@ -1,0 +1,51 @@
+~~~
+<div class="paper">
+    <p class="paper-title">A data-driven approach for safety quantification of non-linear stochastic systems with unknown additive noise distribution</p>
+    <p class="paper-authors">Frederik Mathiesen, Licio Romao, Simeon Calvert, Luca Laurenti, Alessandro Abate</p>
+    <p class="paper-venue"><span class="paper-venue-name">arXiv</span>, 2024.</p>
+    <button class="paper-details-button" onclick="toggleCode('paper-code27')">Bib</button><a href=/assets/bibfiles/individual-pdf/MRCLA24.pdf>
+    <button class="paper-pdf-button">PDF</button>
+</a>        <div id="paper-code27" class="paper-code" data-file=/assets/bibfiles/individual-bib/MRCLA24.bib style="display: none;">
+            <button class="copy-btn">Copy</button> 
+        </div>
+    </div>
+
+    <script src="/assets/js/fetch_paper_code.js"></script>
+    <script src="/assets/js/listen_to_copy.js"></script>
+    <script src="/assets/js/buttom_func.js"></script>
+    <script src="/assets/js/print_bib.js"></script>
+~~~
+~~~
+<div class="paper">
+    <p class="paper-title">Data-driven memory-dependent abstractions of dynamical systems via a Cantor-Kantorovich metric</p>
+    <p class="paper-authors">Adrien Banse, Licio Romao, Alessandro Abate, Raphaël Jungers</p>
+    <p class="paper-venue"><span class="paper-venue-name">arXiv</span>, 2024.</p>
+    <button class="paper-details-button" onclick="toggleCode('paper-code28')">Bib</button><a href=/assets/bibfiles/individual-pdf/BRAJ24b.pdf>
+    <button class="paper-pdf-button">PDF</button>
+</a>        <div id="paper-code28" class="paper-code" data-file=/assets/bibfiles/individual-bib/BRAJ24b.bib style="display: none;">
+            <button class="copy-btn">Copy</button> 
+        </div>
+    </div>
+
+    <script src="/assets/js/fetch_paper_code.js"></script>
+    <script src="/assets/js/listen_to_copy.js"></script>
+    <script src="/assets/js/buttom_func.js"></script>
+    <script src="/assets/js/print_bib.js"></script>
+~~~
+~~~
+<div class="paper">
+    <p class="paper-title">Distributed Markov Chain Monte Carlo Sampling based on the Alternating Direction Method of Multipliers</p>
+    <p class="paper-authors">Alexandros Tzikas, Licio Romao, Mert Pilanci, Alessandro Abate, Mykel Kochenderfer</p>
+    <p class="paper-venue"><span class="paper-venue-name">arXiv</span>, 2024.</p>
+    <button class="paper-details-button" onclick="toggleCode('paper-code29')">Bib</button><a href=/assets/bibfiles/individual-pdf/TRPAK24.pdf>
+    <button class="paper-pdf-button">PDF</button>
+</a>        <div id="paper-code29" class="paper-code" data-file=/assets/bibfiles/individual-bib/TRPAK24.bib style="display: none;">
+            <button class="copy-btn">Copy</button> 
+        </div>
+    </div>
+
+    <script src="/assets/js/fetch_paper_code.js"></script>
+    <script src="/assets/js/listen_to_copy.js"></script>
+    <script src="/assets/js/buttom_func.js"></script>
+    <script src="/assets/js/print_bib.js"></script>
+~~~

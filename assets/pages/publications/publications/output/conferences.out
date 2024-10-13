@@ -2,10 +2,27 @@
 <div class="paper">
     <p class="paper-title">Bounded Robustness in Reinforcement Learning via Lexicographic Objectives</p>
     <p class="paper-authors">Daniel Ornia, Licio Romao, Lewis Hammond, Manuel Mazo, Alessandro Abate</p>
-    <p class="paper-venue"> <span class="paper-venue-name">6th Annual Learning for Decision and Control</span> 2024. <span class="paper-award">Oral presentation. Top 6 percent from accepted papers.</span></p>
-    <button class="paper-details-button" onclick="toggleCode('paper-code1')">Bib entry</button><a href=/assets/bibfiles/individual-pdf/ORHMA24.pdf>
+    <p class="paper-venue"> <span class="paper-venue-name">6th Annual Learning for Decision and Control</span> 2024. <span class="paper-award">Oral presentation. Top 6 percent.</span></p>
+    <button class="paper-details-button" onclick="toggleCode('paper-code1')">Bib</button><a href=/assets/bibfiles/individual-pdf/ORHMA24.pdf>
     <button class="paper-pdf-button">PDF</button>
 </a>        <div id="paper-code1" class="paper-code" data-file=/assets/bibfiles/individual-bib/ORHMA24.bib style="display: none;">
+            <button class="copy-btn">Copy</button> 
+        </div>
+    </div>
+
+    <script src="/assets/js/fetch_paper_code.js"></script>
+    <script src="/assets/js/listen_to_copy.js"></script>
+    <script src="/assets/js/buttom_func.js"></script>
+    <script src="/assets/js/print_bib.js"></script>
+~~~
+~~~
+<div class="paper">
+    <p class="paper-title">A Stability-Based Abstraction Framework for Reach-Avoid Control of Stochastic Dynamical Systems with Unknown Noise Distributions</p>
+    <p class="paper-authors">Thom Badings, Licio Romao, Alessandro Abate, Nils Jansen</p>
+    <p class="paper-venue"><span class="paper-venue-name">2024 European Control Conference (ECC)</span>, 2024.</p>
+    <button class="paper-details-button" onclick="toggleCode('paper-code25')">Bib</button><a href=/assets/bibfiles/individual-pdf/BRAJ24.pdf>
+    <button class="paper-pdf-button">PDF</button>
+</a>        <div id="paper-code25" class="paper-code" data-file=/assets/bibfiles/individual-bib/BRAJ24.bib style="display: none;">
             <button class="copy-btn">Copy</button> 
         </div>
     </div>
