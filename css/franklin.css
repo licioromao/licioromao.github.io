@@ -343,7 +343,7 @@ nav.dark-mode {
   line-height: 1.35em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 400px) {
   .franklin-content {
     width: 90%;
     margin-left: auto;
@@ -361,7 +361,7 @@ nav.dark-mode {
 }
 
 /* On narrow device, reduce margins. */
-@media (max-width: 480px) {
+@media (max-width: 200px) {
   .franklin-content {
     padding-left: 2%;
     padding-right: 2%;
