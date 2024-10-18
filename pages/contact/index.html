@@ -6,22 +6,25 @@
   
   
   <link rel="stylesheet" href="/css/franklin.css">
+  <link rel="icon" href="/assets/dtu-logo.jpeg" type="image/x-icon">
    <title>Licio Romao</title>  
   <nav>
     <div class="nav-name">
-	<img src="/assets/dtu-logo.jpeg" alt="DTU logo" class="logo">
+	    <img src="/assets/dtu-logo.jpeg" alt="DTU logo" class="logo">
                 Licio Romao - Assistant Professor<br>
-		Technical University of Denmark (DTU)
-	</div>
+            		Technical University of Denmark (DTU)
+	  </div>
     <div class="nav-links">
        <a href="/">Home</a>
        <a href="/pages/publications">Publications</a>
        <a href="/pages/teaching">Teaching</a>
        <a href="/pages/contact">Contact</a>
-       <button id="theme-toogle" onclick="toggleTheme()" class="theme-button"></button>
-       <!-- <img id="theme-toogle" src="/assets/LinkedIn.png" alt="Toogle Theme" onclick="toggleTheme()" style="cursor: pointer;"> -->
-	</div>
+       <!-- <button id="theme-toogle" onclick="toggleTheme()" class="theme-button"></button> -->
+       <img id="theme-toggle" src="/assets/light-theme.png" alt="Toogle Theme" onclick="toggleTheme()" style="cursor: pointer;">
+	  </div>
+    <div class="hamburger-menu" onclick="toggleNav()">&#9776;</div>
     <!-- Add more links here -->
+  <script src="/assets/js/hamburger_menu.js"></script>
   </nav>
   <script src="/assets/js/theme_buttom.js"></script> 
 </head>

@@ -77,6 +77,7 @@ nav {
 .nav-name {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   margin-top: 5px;
 }
 
@@ -98,6 +99,17 @@ nav a:link, a:visited {
 nav a:hover, a:active {
   color: #eef3f5;
   text-decoration: underline;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.nav-links img#theme-toggle {
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 3px;
 }
 
 /* Style for announcements: prospective students */
@@ -189,7 +201,6 @@ body.dark-mode .paper-code {
 }
 
 /* Student feedback */
-
 body.light-mode .student-feedback {
   border: 1px dashed #8c1515;
   background-color: rgba(0, 0, 0, 0.1);
@@ -222,7 +233,6 @@ body.dark-mode .theme-button {
   cursor: pointer;
 }
 
-
 body.light-mode .course-title {
   font-size: 14pt;
   color: #8c1515;
@@ -244,7 +254,6 @@ body.dark-mode .course-title {
 
 
 /* Styles for the light and dark mode */
-
 body.light-mode {
   background-color: #f0f0f0;
   color: #000000;
@@ -343,18 +352,43 @@ nav.dark-mode {
   line-height: 1.35em;
 }
 
-@media (min-width: 400px) {
-  .franklin-content {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 /* On wide screens, fix content width to a max value. */
-@media (max-width: 800px) {
+@media (max-width: 850px) {
+  .nav-name {
+    display: center;
+  }
+
+  .nav-links {
+    display: none;
+    /* flex-direction: row; */
+    text-align: right;
+  }
+
+  .nav-links a {
+    display: block;
+    margin-top: 10px 0;
+  }
+
+  .nav-links.show {
+    display: block;
+  }
+
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+
+  }
+
+  .nav-links img#theme-toggle {
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+
   .franklin-content {
-    width: 70%;
+    width: 80%;
     padding-left: 5%;
     padding-right: 5%;
   }

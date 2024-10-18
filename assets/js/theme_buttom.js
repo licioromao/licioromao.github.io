@@ -8,12 +8,37 @@
         body.classList.remove(currentTheme);
         body.classList.add(newTheme);
 
+        // Change the image of the theme toggle button
+        var themeToggleButton = document.getElementById('theme-toggle');
+
+        if (body.classList.contains('light-mode')) {
+            themeToggleButton.src = '/assets/dark-theme.png';
+        } else {
+            themeToggleButton.src = '/assets/light-theme.png';
+        }
+
         // Save the user's preference in localStorage
         localStorage.setItem('theme', newTheme);
     }
 
+    // // Check and apply the saved theme on page load
+    // window.onload = function() {
+    //     const savedTheme = localStorage.getItem('theme');
+    //     document.body.classList.add(savedTheme);
+    // }
+
+// Ensure the correct theme and image are set on page load
+document.addEventListener('DOMContentLoaded', function() {
+    var body = document.body;
+    var themeToggleButton = document.getElementById('theme-toggle');
+
     // Check and apply the saved theme on page load
-    window.onload = function() {
-        const savedTheme = localStorage.getItem('theme') || 'light-mode';
-        document.body.classList.add(savedTheme);
+    const savedTheme = localStorage.getItem('theme') || 'light-mode';
+    body.classList.add(savedTheme);
+    
+    if (body.classList.contains('dark-mode')) {
+      themeToggleButton.src = '/assets/light-theme.png';
+    } else {
+      themeToggleButton.src = '/assets/dark-theme.png';
     }
+  });
