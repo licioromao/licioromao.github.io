@@ -352,8 +352,8 @@ nav.dark-mode {
   line-height: 1.35em;
 }
 
-/* On wide screens, fix content width to a max value. */
-@media (max-width: 830px) {
+/* On narrow screens, fix content width to a max value. */
+@media (max-width: 700px) {
   .nav-name {
     display: center;
   }
