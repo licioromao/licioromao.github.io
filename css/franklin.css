@@ -365,7 +365,7 @@ nav.dark-mode {
     flex-direction: column;
     text-align: right;
     margin-right: 0px;
-    padding: 0px 0px 0px 110px;
+    padding: 0px 0px 0px 50px;
   }
 
   .nav-links a {
@@ -398,13 +398,7 @@ nav.dark-mode {
   }
 }
 
-/* On narrow device, reduce margins. */
-@media (max-width: 200px) {
-  .franklin-content {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
+
 
 /* ==================================================================
     TITLES
