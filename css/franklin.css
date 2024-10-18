@@ -104,10 +104,10 @@ nav a:hover, a:active {
 }
 
 .nav-links img#theme-toggle {
-  width: 30px;
+  width: 25px;
   height: auto;
-  margin-left: 10px;
-  margin-top: 3px;
+  margin-left: 2px;
+  margin-top: 5px;
 }
 
 /* Style for announcements: prospective students */
@@ -404,8 +404,6 @@ nav.dark-mode {
     gap: 10px
   }
 }
-
-
 
 /* ==================================================================
     TITLES
